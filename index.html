@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="description"
+      content="A fast and clean search engine! Start using it now and make your life easier!"
+    />
+    <meta charset="utf-8" />
+    <title>Mozo, The new search engine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.7" />
+    <meta name="author" content="Merijn Molenaar" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn.glitch.com/3106a1b6-740a-4223-a74e-26e122d9f28c%2Ffavicon.ico?v=1629966043824"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://cdn.glitch.com/3106a1b6-740a-4223-a74e-26e122d9f28c%2Ffavicon.ico?v=1629966043824"
+    />
+  </head>
+  <body>
+       
+    <button class="darkmodebutton" onclick="dark()"></button>
+    <form class="search-container" action="https://google.nl/search">
+      <input
+        type="text"
+        id="search-bar"
+        placeholder="How can i help you?"
+        name="q"
+        tabindex="1"
+        autofocus="autofocus"
+        z-index="10"
+      />
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
